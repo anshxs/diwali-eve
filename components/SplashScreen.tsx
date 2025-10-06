@@ -95,7 +95,7 @@ export default function SplashScreen({ onComplete, isTransitioning = false }: Sp
           </p>
           <div className="mt-3 sm:mt-4 text-white/80 space-y-1">
             <p className="text-sm sm:text-base md:text-lg font-semibold text-black">🎊 16th October • Shree Garden</p>
-            <p className="text-sm sm:text-base md:text-lg font-semibold text-black">🕕 6 PM onwards • DJ Vegra</p>
+            <p className="text-sm sm:text-base md:text-lg font-semibold text-black">🕕 6 PM onwards • DJ Night</p>
           </div>
         </div>
 
