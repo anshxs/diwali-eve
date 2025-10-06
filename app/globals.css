@@ -174,3 +174,35 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Mobile-specific optimizations */
+@media (max-width: 640px) {
+  .animate-blob {
+    animation: blob 10s infinite; /* Slower animation on mobile for better performance */
+  }
+  
+  /* Reduce blur effects on mobile for better performance */
+  .blur-xl {
+    filter: blur(8px);
+  }
+  
+  /* Optimize touch targets */
+  button, [role="button"] {
+    min-height: 44px; /* iOS recommended minimum touch target */
+    min-width: 44px;
+  }
+}
+
+/* Prevent horizontal scrolling on mobile */
+@media (max-width: 768px) {
+  html, body {
+    overflow-x: hidden;
+  }
+}
+
+/* High DPI displays optimization */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .animate-blob {
+    will-change: transform;
+  }
+}

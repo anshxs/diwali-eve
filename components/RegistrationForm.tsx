@@ -201,7 +201,7 @@ export default function RegistrationForm() {
           <p className="text-lg text-gray-700 font-medium">Let's Glow Up Together!</p>
           <div className="mt-4 bg-gradient-to-r from-orange-50 to-red-50 rounded-lg p-4 max-w-2xl mx-auto border">
             <p className="text-gray-700"><strong>16th October 2025</strong> at <strong>Shree Garden, Roorkee</strong></p>
-            <p className="text-gray-700"><strong>6 PM</strong> • 👗 <strong>Dress Code: Traditional</strong></p>
+            <p className="text-gray-700"><strong>6 PM</strong> • <strong>Dress Code: Traditional</strong></p>
           </div>
         </div>
 
@@ -226,7 +226,7 @@ export default function RegistrationForm() {
               <ul className="text-sm space-y-2 text-gray-700">
                 <li className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-orange-400 rounded-full"></span>
-                  <strong>DJ Vegra</strong> - Live Performance
+                  <strong>DJ Night</strong> - Live Performance
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-red-400 rounded-full"></span>
