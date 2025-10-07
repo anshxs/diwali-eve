@@ -357,7 +357,7 @@ export default function RegistrationForm() {
               </div>
 
               <div className="mb-6">
-                <label className="block text-sm font-medium mb-2">Parent/Husband Mobile Number *</label>
+                <label className="block text-sm font-medium mb-2">Parent/Husband Mobile Number</label>
                 <div className="relative">
                   <Phone className="absolute left-3 top-3 w-5 h-5 text-gray-400" />
                   <input
@@ -365,7 +365,6 @@ export default function RegistrationForm() {
                     className="w-full p-3 pl-10 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent"
                     value={formData.parentHusbandMobile}
                     onChange={(e) => handleInputChange('parentHusbandMobile', e.target.value)}
-                    required
                   />
                 </div>
               </div>
@@ -428,7 +427,7 @@ export default function RegistrationForm() {
                   type="button"
                   onClick={() => {
                     // Validate form before proceeding
-                    if (!formData.name || !formData.email || !formData.phone || !formData.dateOfBirth || !formData.parentHusbandMobile) {
+                    if (!formData.name || !formData.email || !formData.phone || !formData.dateOfBirth) {
                       alert('Please fill all required fields');
                       return;
                     }
