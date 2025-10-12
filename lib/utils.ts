@@ -26,8 +26,8 @@ export function generateTicketId(): string {
 }
 
 export function generateUPIPaymentUrl(amount: number, ticketId: string): string {
-  const upiId = '8439100899@fam';
-  const merchantName = 'Nihar Gautam';
+  const upiId = '9588710731@upi';
+  const merchantName = 'Arjun Chutiya';
   const note = `Diwali Night 2025 - ${ticketId}`;
   
   return `upi://pay?pa=${upiId}&pn=${encodeURIComponent(merchantName)}&am=${amount}&cu=INR&tn=${encodeURIComponent(note)}`;
