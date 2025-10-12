@@ -77,7 +77,7 @@ export default function RegistrationForm() {
       const ticketId = sessionStorage.getItem('tempTicketId') || generateTicketId();
       
       // Generate UPI payment string
-      const upiString = `upi://pay?pa=8439100899@fam&pn=Shree%20Garden&am=${amount}&cu=INR&tn=Diwali%20Night%202025%20-%20${formData.registrationType}%20Pass%20-%20${ticketId}`;
+      const upiString = `upi://pay?pa=9588710731@upi&pn=Shree%20Garden&am=${amount}&cu=INR&tn=Diwali%20Night%202025%20-%20${formData.registrationType}%20Pass%20-%20${ticketId}`;
       
       // Generate QR code
       const qrCodeDataURL = await QRCode.toDataURL(upiString, {
@@ -493,7 +493,7 @@ export default function RegistrationForm() {
                       )}
                     </div>
                     <div className="mt-4 text-center">
-                      <p className="text-sm text-gray-600">UPI ID: 8439100899@fam</p>
+                      <p className="text-sm text-gray-600">UPI ID: 9588710731@upi</p>
                       <p className="text-xs text-gray-500 mt-1">Shree Garden, Roorkee</p>
                     </div>
                   </div>
