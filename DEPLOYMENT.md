@@ -1,6 +1,6 @@
 # Deployment Checklist
 
-## Pre-Deployment Setup
+## Pre -Deployment Setup
 
 ### 1. Supabase Setup
 - [ ] Create Supabase project
